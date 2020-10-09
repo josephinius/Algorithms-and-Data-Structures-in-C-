@@ -58,11 +58,12 @@ int MinHeap<T>::parent(int i) {
 template <typename T>
 int MinHeap<T>::left(int i) {
     return 2 * i;
-    
 }
 
 template <typename T>
-int MinHeap<T>::right(int i) {return 2 * i + 1;}
+int MinHeap<T>::right(int i) {
+    return 2 * i + 1;
+}
 
 template <typename T>
 void MinHeap<T>::heapify(int i) {
